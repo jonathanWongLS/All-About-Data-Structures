@@ -30,5 +30,31 @@ public class Main {
         ll.append(2);
         ll.append(3);
         System.out.println(ll);
+        ll.prepend(10);
+        ll.prepend(11);
+        System.out.println(ll);
+
+        ll.insertAtIndex(0, 20);
+        System.out.println(ll);
+        ll.insertAtIndex(2, 21);
+        System.out.println(ll);
+
+        ll.insertAtIndex(4, 1000);
+        System.out.println(ll);
+        ll.insertAtIndex(5, 1001);
+        System.out.println(ll);
+        ll.insertAtIndex(7, 1001);
+        System.out.println(ll);
+//        ll.insertAtIndex(9, 1003);
+//        System.out.println(ll);
+
+        ll.deleteByValue(2);
+        System.out.println(ll);
+        ll.deleteAtIndex(2);
+        System.out.println(ll);
+        ll.deleteAtIndex(0);
+        System.out.println(ll);
+        ll.deleteAtIndex(5);
+        System.out.println(ll);
     }
 }
