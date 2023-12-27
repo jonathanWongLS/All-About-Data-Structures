@@ -1,5 +1,7 @@
 import java.util.Arrays;
 import java.util.ArrayList;
+
+import Hashmap.Hashmap;
 import LinkedList.LinkedList;
 
 public class Main {
@@ -56,5 +58,9 @@ public class Main {
         System.out.println(ll);
         ll.deleteAtIndex(5);
         System.out.println(ll);
+
+        // HashMap
+        Hashmap map = new Hashmap();
+        map.hashmapMain();
     }
 }

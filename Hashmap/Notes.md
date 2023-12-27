@@ -17,6 +17,9 @@
     The key 'C' has the value "Cat", the key 23 has the value "Number", and the key "frog" has the value 45.
 
 ### B. Tell me more!
+    When defining the key and value object type, we define it with object types and not primitive types, such as int, boolean.
+    Instead, we use their corresponding wrapper classes: Integer, Boolean
+
     Inserting into, removing from and searching through a hashmap will take constant time (O(1))! 
     This is true as we would absolutely need to know the key to retrieve the corresponding value. Just like how you would need a key to access some potentially expensive treasure in a chest!
 
