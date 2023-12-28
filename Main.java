@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import BinaryTrees.BinaryTree;
 import Hashmap.Hashmap;
 import LinkedList.LinkedList;
+import Tries.Trie;
 
 public class Main {
     public static void main(String[] args) {
@@ -76,5 +77,11 @@ public class Main {
         System.out.println(btree.preorder());
         System.out.println(btree.inorder());
         System.out.println(btree.postorder());
+
+        Trie trie = new Trie();
+        trie.insert("Hello");
+        trie.insert("Helpme");
+        System.out.println(trie.search("HELPME"));
+
     }
 }
