@@ -81,7 +81,9 @@ public class Main {
         Trie trie = new Trie();
         trie.insert("Hello");
         trie.insert("Helpme");
-        System.out.println(trie.search("HELPME"));
+        System.out.println(trie.search("helpme"));
+        System.out.println(trie.search("help"));
+        System.out.println(trie.search("gewon"));
 
     }
 }
