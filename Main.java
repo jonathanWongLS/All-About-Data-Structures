@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.ArrayList;
 
+import BinaryTrees.BinaryTree;
 import Hashmap.Hashmap;
 import LinkedList.LinkedList;
 
@@ -62,5 +63,18 @@ public class Main {
         // HashMap
         Hashmap map = new Hashmap();
         map.hashmapMain();
+
+        // Binary Tree
+        BinaryTree btree = new BinaryTree();
+        btree.root = new BinaryTree.Node(25);
+        btree.insert(btree.root, 11);
+        btree.insert(btree.root, 15);
+        btree.insert(btree.root, 16);
+        btree.insert(btree.root, 23);
+        btree.insert(btree.root, 79);
+
+        System.out.println(btree.preorder());
+        System.out.println(btree.inorder());
+        System.out.println(btree.postorder());
     }
 }
