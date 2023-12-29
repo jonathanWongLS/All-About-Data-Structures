@@ -41,7 +41,7 @@ public class Graph {
         for (Edge edge: edges) {
             if (edge.toVertex == toVertex) {
                 edge.weight = weight;
-                System.out.println("Vertex already exists!");
+                System.out.println("Edge already exists!");
                 return;
             }
         }
